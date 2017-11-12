@@ -1,0 +1,233 @@
+    /*Main block parts*/
+    
+    .bTextLeft {
+        
+        position:absolute;
+        width:30%;
+        height:84%;
+        left:10%;
+        bottom:0%;
+        line-height: 140%;
+        padding: 15px;
+        
+        background-color:rgba(0,0,0,0.5);
+        
+    }
+    .bTextBottom {
+        position:absolute;
+        width:30%;
+        height:50%;
+        left:50%;
+        bottom:0%;
+        padding: 15px;
+        line-height: 140%;
+        
+        background-color:rgba(0,0,0,0.5);
+    }
+    
+    /*Styles for elements*/
+    .bTextBottom p, .bTextLeft p {
+        text-indent: 50px;
+        text-align:left;
+        color:white;
+        font-size:1em;
+        font-weight:200;
+        font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+    }
+    
+    .bHead {
+        text-align:center;
+        font-family: times;
+        font-size: 24px;
+    	font-weight: 250px;
+    	line-height: 26px;
+    	color:white;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     /* ITS JUST A PRANK*/
+    
+     /* ITS JUST A PRANK*/
+    
+     /* ITS JUST A PRANK*/
+    
+     /* ITS JUST A PRANK*/
+    
+     /* ITS JUST A PRANK*/
+    
+     /* ITS JUST A PRANK*/
+    
+    #supriseButton{
+        background-color:lightskyblue;
+        border-radius:0px;
+        box-shadow: 2px 2px 2px black;
+         transition: all 0.5s ease;
+    }
+    #textLol{
+        opacity:0;
+        color:white;
+        font-size:20px;
+        font-family:times;
+         transition: all 0.5s ease;
+    }
+    #supriseButton:hover{
+       border-radius:30px;
+       animation-name:random1;
+        animation-duration:4s;
+       animation-name:random2;
+        animation-duration:4s;
+        
+        animation-name:rainbow;
+        animation-duration:4s;
+        
+      
+    }
+    #textLol:hover{
+        animation-name:changeSize;
+       animation-duration:4s;
+       opacity:1;
+    }
+   @keyframes random1 {
+       10%{transform: rotate(7deg);}
+       20%{transform: rotate(77deg);}
+       30%{transform: rotate(137deg);}
+       40%{transform: rotate(5deg);}
+       50%{transform: rotate(-45deg);}
+       60%{transform: rotate(78deg);}
+       70%{transform: rotate(256deg);}
+       80%{transform: rotate(-90deg);}
+       90%{transform: rotate(-32deg);}
+       100%{transform: rotate(0deg);}
+       
+   }
+   @keyframes random2 {
+       10%{ transform:skewX(60deg);}
+       20%{transform:skewX(100deg);}
+       30%{transform:skewX(-40deg);}
+       40%{transform:skewX(58deg);}
+       50%{transform:skewX(250deg);}
+       60%{transform:skewX(-90deg);}
+       70%{transform:skewX(123deg);}
+       80%{transform:skewX(20deg);}
+       90%{transform:skewX(160deg);}
+       100%{transform:skewX(0deg);}
+       
+   }
+   
+   @keyframes random3{
+       10%{ transform:translate(10px,50px)}
+       20%{transform:translate(100px,-50)}
+       30%{transform:translate(-110px)}
+       40%{transform:translate(167px,90px)}
+       50%{transform:translate(10px,20px)}
+       60%{transform:translate(10px,30px)}
+       70%{transform:translate(10px,50px)}
+       80%{transform:translate(10px,-70px)}
+       90%{transform:translate(10px,-30px)}
+       100%{transform:translate(-167px,-90)}
+   }
+   @keyframes changeSize{
+       from{font-size:20px;}
+       to{font-size:50px;}
+   }
+   @keyframes rainbow {
+0% {background: #ff0000;}
+10% {background: #ff8000;}
+20% {background: #ffff00;}
+30% {background: #80ff00;}
+40% {background: #00ff00;}
+50% {background: #00ff80;}
+60% {background: #00ffff;}
+70% {background: #0080ff;}
+80% {background: #0000ff;}
+90% {background: #8000ff;}
+100% {background: #ff0080;}
+}
+
+ /* ITS JUST A PRANK*/

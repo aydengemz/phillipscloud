@@ -1,0 +1,57 @@
+    .Subhead1{
+    	font-size: 50px;
+    	font-weight: bold;
+    	line-height: 26px;
+  
+    
+    	text-align:center;
+        color:white;
+        font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+    }
+    #firstBlock {
+        position: absolute;
+        
+        width:100%;
+        height:80%;
+        left:0%;
+        top:18%;
+        
+        background-color: transparent;
+        /*border-left:10px solid white;*/
+        overflow: hidden;
+        z-index: 1;
+    }
+    
+    #secondBlock {
+        position:absolute;
+        width:100%;
+        height:100%;
+        top:100%;
+        left:0%;
+        background-color:white;
+    }
+    #secondBlock h1 {
+        color:white;
+        text-align: center;
+    }
+    
+      #thirdBlock {
+        position:absolute;
+        width:100%;
+        height:100%;
+        top:200%;
+        left:0%;
+        color:white;
+        background:rgb(40, 86, 160);
+        text-align:center;
+    }
+    
+    
+     #thirdBlock a {
+        color:white;
+        font-size:35px;
+    }
+    
+    .headbar:hover{
+        cursor: pointer;
+    }
